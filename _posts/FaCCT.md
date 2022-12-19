@@ -47,5 +47,5 @@ Desde mi perspectiva si bien algunas de las empresas van muy bien encaminadas, h
 
 ### Comunidad
 
-La comunidad explora constantemente por alternativas para aumentar la interpretabilidad y responsabilidad de las arquitecturas. En el contexto de la interpretabilidad, los modelos de atención han demostrado ser útiles porque proporcionan información sobre qué partes de la entrada de datos son más importantes para la predicción o la decisión del modelo. Por ejemplo, en el procesamiento del lenguaje natural, un modelo de atención puede indicar qué palabras o frases en una oración son más importantes para la comprensión del significado de la oración. En clase se abordan multiples papers que incorporan este acercamiento.
+La comunidad explora constantemente alternativas para aumentar la interpretabilidad y responsabilidad de las arquitecturas desarrollando incluso softwares interactivos que permitan visualizar la consecuencias en la variación del contexto. Adicionalmente, existen constantes investigaciones, por ejemplo con modelos de atención han demostrado ser útiles porque proporcionan información sobre qué partes de la entrada de datos son más importantes para la predicción o la decisión del modelo. 
 
