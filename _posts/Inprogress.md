@@ -1,12 +1,12 @@
 El objetivo de los sistemas de recomendación es ayudar al usuario con la sobrecarga de información. Permite aumentar el KPI de la empresa o sistema teniendo un mejor *engagement* del usuario, teniendo un impacto directo en las ventas, *click rate* y precio promedio de la compra. El problema de recomendación consiste en seleccionar un conjunto de ítems para un usuario que maximicen una función de utilidad. Su funcionamiento se centra en la interacción de usuario con la interfaz, alimentando una base de datos que, en conjunto con un motor de recomendación, entrega recomendaciones al usuario.
 
-# Filtrado colaborativo basado en usuarios/ítems
+# Filtrado colaborativo
 
-Su objetivo es buscar usuarios similares y recomendar usando una suma ponderada con una métrica de similitud. Si bien el filtrado colaborativo tiene una mayor exactitud con más vecinos, esto tiene un costo computacional mayor. Adicionalmente, este modelo de recomendación requiere de interacciones, si un usuario o película no cuenta con un historial previo no es posible realizar recomendaciones. Esto es conocido como cold start.
+El filtrado colaborativo basado en usuarios/ítems tiene objetivo es buscar usuarios/items similares y recomendar de acuerdo a una métrica de similitud. Si bien el filtrado colaborativo tiene una mayor exactitud con más vecinos, esto tiene un costo computacional mayor. Adicionalmente, este modelo de recomendación requiere de interacciones, si un usuario o película no cuenta con un historial previo no es posible realizar recomendaciones. Esto es conocido como cold start.
 
 # Factorización
 
-Las técnicas de factorización matricial buscan descomponer la matriz de ratings en una multiplicación de matrices de menor dimensión que capturan la información de usuarios e items.Recordemos que contamos con sistemas de recomendación no personalizados como most popular, random o Wilson score, semi-personalizados basados en reglas generales o segmentaciones y personalizados que consideran los intereses personales tales como el filtrado colaborativo, factores latentes, recomendaciones basadas en contenidos y ensambles o híbridos. 
+Las técnicas de factorización matricial buscan descomponer la matriz de ratings en una multiplicación de matrices de menor dimensión que capturan la información de usuarios e items. Recordemos que contamos con sistemas de recomendación *no personalizados* como most popular, random o Wilson score, *semi-personalizados* basados en reglas generales o segmentaciones y *personalizados* que consideran los intereses personales tales como el filtrado colaborativo, factores latentes, recomendaciones basadas en contenidos y ensambles o híbridos. 
 
 # Recomendación basada en contenido
 
@@ -20,10 +20,20 @@ Existen tres tipos de sistemas de recomendación híbridos:
 
 El contexto puede ser totalmente, parcialmente o no observable y puede describir un estado estático o dinámico. El contexto puede ser utilizado para hacer predicciones basadas en data filtrada por el contexto, o contextualizar las recomendaciones que genera un sistema en base a toda los datos. También, puede utilizarse el contexto como parte de un modelo de recomendación.
 
+## Factores latentes
+
+Los factores latentes son características ocultas o subyacentes que influyen en el comportamiento o preferencias de un usuario. En los sistemas de recomendación, los factores latentes pueden ser utilizados para modelar y predecir las preferencias de un usuario en función de sus interacciones pasadas con ítems o contenido.
+http://projector.tensorflow.org/
+
 ## Máquinas de factorización
 
 Los modelos de factorización permiten estimar interacciones entre dos (o más) variables incluso si la interacción no es observada explícitamente. Existe múltiples extensiones de los métodos de factorización matricial que buscan incorporar información especifica de cada problema (SVD++, Time SVD, Fact-KNN, Time TF, Factorizing Markov Chain, Factorizing Personalized Markov Chain).
 
-Dado que cada tarea de recomendación requiere un re-diseño del modelo de optimización y una re-implementación del algoritmo encargado de hacer las inferencias. Por lo tanto, buscamos un modelo que nos permita realizar una factorización matricial con múltiples variables iniciando desde la regresión lineal.
+## Problemas de los RecSys
 
-http://projector.tensorflow.org/
+Los sistemas de recomendación enfrentan varios problemas importantes, como el efecto de los filtros burbuja, que sesgan la exposición del usuario a contenido diverso,  la falta de control y transparencia para el usuario, la justicia o equidad en las recomendaciones, las métricas no alineadas con los objetivos del usuario, la reproducibilidad de los resultados de investigación, la dependencia de la conducta del usuario en lugar de sus pensamientos o sentimientos, la falta de diversidad en la investigación de audiencias no tradicionales y la privacidad de la información personal del usuario.
+
+## Graph NN para recomendación
+
+Los grafos son una herramienta útil para representar y modelar interacciones y conexiones entre elementos, como usuarios e ítems en sistemas de recomendación. Graph Neural Networks (GNN) es una técnica que permite aprender relaciones complejas entre los nodos de un grafo y crear embeddings de nodos a partir de las características de sus vecinos. Existen distintos tipos de GNN, como GCNN, que utiliza pooling y convoluciones, y Gated GNN, que utiliza atención para aprender sobre la influencia de otros nodos. GraphSAGE es un método inductivo que permite dar representación a elementos nuevos sin necesidad de reentrenar y fue utilizado en el pasado por Pinterest para sus recomendaciones. Sin embargo, tiene el problema de la maldición de nodos "celebridades" y un aumento exponencial en el número de cálculos para un K grande.
+
