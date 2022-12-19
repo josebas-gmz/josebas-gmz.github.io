@@ -1,49 +1,48 @@
 # Aplicaciones de vanguardia de la IA.
 
-La inteligencia artificial es una tecnología que está cambiando la forma en que vivimos y trabajamos. Iniciaremos explorando algunas de las aplicaciones más sorprendentes e innovadoras de la inteligencia artificial, y despues profundizaremos acerca de algunas de las principales preocupaciones de la equidad, rendición de cuentas y transparencia de estos sistemas y como algunas de las empresas lideres lo estan abordando. Este primer post se plantea como un complemento a algunas de las principales tematicas discutidas en clase.
+La inteligencia artificial es una tecnología que está cambiando la forma en que vivimos y trabajamos. Iniciaremos explorando algunas de las aplicaciones más sorprendentes e innovadoras de la inteligencia artificial, y después profundizaremos acerca de algunas de las principales preocupaciones de la equidad, rendición de cuentas y transparencia de estos sistemas y como algunas de las empresas lideres lo están abordando. Este primer post se plantea como un complemento a algunas de las principales temáticas discutidas en clase.
 
 ## Dall-E (https://openai.com/dall-e-2/)
 
-DALL-E es un modelo de lenguaje de deep learning desarrollado por OpenAI. Utiliza una potentes transformers para interpretar el lenguaje en conjunto con redes generativas que habilitan la creación de imágenes a partir de descripciones escritas en texto, imágenes que nunca han existido antes. DALL-E ha sido entrenado en una base de datos masiva de imágenes y descripciones de texto, lo que le permite "comprender" el lenguaje y la relación entre las palabras y las imágenes.
+DALL-E es un modelo de lenguaje de Deep Learning desarrollado por OpenAI. Utiliza una potentes Transformers para interpretar el lenguaje en conjunto con redes generativas que habilitan la creación de imágenes a partir de descripciones escritas en texto, imágenes que nunca han existido antes. DALL-E ha sido entrenado en una base de datos masiva de imágenes y descripciones de texto, lo que le permite "comprender" el lenguaje y la relación entre las palabras y las imágenes.
 
 ## Tesla AI day 2022 (https://www.youtube.com/watch?v=j0z4FweCy4M)
 
-El problema de la conducción autónoma sin LIDAR que intenta solventar Tesla con visión computacional de solo 8 cámaras que logra reconstruir el entorno exterior en 3D en base a planos bidimensionales interpretados por transformer networks con mecanismos de autoatención, esto en conjunto con innovadoras técnicas para mantener la memoria en el tiempo de acciones relevantes presenta increibles avances en planificación y accionamiento de vehiculos en piloto automático.
+El problema de la conducción autónoma sin LIDAR que intenta solventar Tesla con visión computacional de solo 8 cámaras que logra reconstruir el entorno exterior en 3D en base a planos bidimensionales interpretados por Transformers Networks con mecanismos de autoatención, esto en conjunto con innovadoras técnicas para mantener la memoria en el tiempo de acciones relevantes presenta increíbles avances en planificación y accionamiento de vehículos en piloto automático.
 
 ## Chat GPT (https://chat.openai.com/)
 
-Un modelo transformer que puede presentarse solo:
+Un modelo Transformers que puede presentarse solo:
 
 "Soy un modelo de lenguaje grande entrenado por OpenAI, y estoy basado en una red neuronal transformer. Las redes neuronales transformadoras son un tipo de modelo de aprendizaje automático que se ha demostrado muy efectivo para tareas de procesamiento del lenguaje natural, como la traducción, la sumarización y la respuesta a preguntas. Utilizan una arquitectura basada en atenciones, que les permite considerar información de contexto a lo largo de una secuencia de entrada, como una oración o un párrafo. Esto les permite capturar relaciones y dependencias complejas entre palabras y frases, y proporciona un rendimiento sobresaliente en muchas tareas de procesamiento del lenguaje natural" - Chat GPT al preguntarle quien es y que tipo de red neuronal se basa.
 
-Un increible modelo con es incluso capaz de generar, documentar y explicar código en cualquier lenguaje de programación.
+Un increíble modelo con es incluso capaz de generar, documentar y explicar código en cualquier lenguaje de programación.
 
 # FaCCT
-Bien, ahora teniendo una idea de las capacidades que recien empiezan a explotarse de la IA procedamos a hablar de algunas empresas que han dado un paso para enfatizar los principios FaCCT (Fairness, Accountability, Transparency).
+Bien, ahora teniendo una idea de las capacidades que recién empiezan a explotarse de la IA procedamos a hablar de algunas empresas que han dado un paso para enfatizar los principios FaCCT (Fairness, Accountability, Transparency).
 
-## ¿Estan poniendo esfuerzo las empresas y gobiernos en promover estos pilares?
+## ¿Están poniendo esfuerzo las empresas y gobiernos en promover estos pilares?
 
 ### GDPR
 
 La General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) es una regulación de la Unión Europea que entró en vigor en mayo de 2018 y que establece un conjunto de normas sobre el tratamiento de datos personales por parte de las empresas y organizaciones. La GDPR tiene como objetivo proteger los derechos y libertades fundamentales de las personas en materia de protección de datos personales, especialmente en un entorno digital en constante evolución. Establece una serie de obligaciones y responsabilidades para las empresas y organizaciones que tratan datos personales. Algunas de las principales medidas que se han implementado en el marco de la GDPR incluyen: transparencia, derechos de los datos personales, responsabilidad, y sanciones.
 
 ### Netflix
-Netflix que ha adoptado medidas para asegurar la transparencia y explicabilidad de sus sistemas de recomendación, proporcionando información sobre cómo funcionan sus algoritmos de recomendación y cómo llegan a sus recomendaciones, asegurandose que no hayan sesgos en sitio, y poniendo a disposición implementaciones de herramientas de explicación automática para proporcionar a los usuarios información sobre por qué han recibido determinadas recomendaciones (https://research.netflix.com/publication/Calibrated%20Recommendations).
+Netflix que ha adoptado medidas para asegurar la transparencia y explicabilidad de sus sistemas de recomendación, proporcionando información sobre cómo funcionan sus algoritmos de recomendación y cómo llegan a sus recomendaciones, asegurándose que no hayan sesgos en sitio, y poniendo a disposición implementaciones de herramientas de explicación automática para proporcionar a los usuarios información sobre por qué han recibido determinadas recomendaciones (https://research.netflix.com/publication/Calibrated%20Recommendations).
 
 ### Google
-Google, como uno de los principales lideres en desarrollo de Software y mantenedores de Tensorflow, han puesto a diposición herramientas como Integrated Gradients (https://www.tensorflow.org/tutorials/interpretability/integrated_gradients) que promueven la interpretabilidad y explicabilidad de los sistemas que incorporen imágenes.
-
+Google, como uno de los principales lideres en desarrollo de Software y mantenedores de Tensorflow, han puesto a disposición herramientas como Integrated Gradients (https://www.tensorflow.org/tutorials/interpretability/integrated_gradients) que promueven la interpretabilidad y explicabilidad de los sistemas que incorporen imágenes.
 Youtube en particular ha sido un centro de controversia, algunas de sus aplicaciones que buscan incrementar la transparencia es por ejemplo con la característica de ¿Por qué este anuncio?, que permite a los usuarios ver por qué se les muestra una publicidad en particular y cómo se está utilizando su información para personalizar el anuncio. Youtube también ha implementado medidas para reducir la difusión de información falsa y contenido perjudicial en su plataforma y ha justificado algunas decisiones como la eliminación del conteo de likes como alternativas a hacer de la plataforma un lugar más equitativo y seguro.
 
 ### Apple
 
-Apple's App Tracking Transparency (https://developer.apple.com/documentation/apptrackingtransparency) permite a los usuarios optar por no ser rastreados por aplicaciones con fines publicitarios. Esto tiene el potencial de afectar a los sistemas recomendadores, que a menudo se utilizan en plataformas de redes sociales y otros servicios en línea para recomendar contenido o productos a los usuarios en función de sus interacciones y preferencias previas. Uno de los principales afectados Facebook, fue fuertemente afectado por los cambios de privacidad realizados por Apple en su sistema operativo iOS reportando perdidas superiores a los 10 mil millones de dolares, simplemente transparentando la necesidad de una confirmación explicita del usuario para permitir el seguimiento de sus datos.
+Apple's App Tracking Transparency (https://developer.apple.com/documentation/apptrackingtransparency) permite a los usuarios optar por no ser rastreados por aplicaciones con fines publicitarios. Esto tiene el potencial de afectar a los sistemas recomendadores, que a menudo se utilizan en plataformas de redes sociales y otros servicios en línea para recomendar contenido o productos a los usuarios en función de sus interacciones y preferencias previas. Uno de los principales afectados Facebook, fue fuertemente afectado por los cambios de privacidad realizados por Apple en su sistema operativo iOS reportando pérdidas superiores a los 10 mil millones de dólares, simplemente transparentando la necesidad de una confirmación explicita del usuario para permitir el seguimiento de sus datos.
 
 ### OpenAI
 
-El Content Moderation Tooling de OpenAI (https://openai.com/blog/new-and-improved-content-moderation-tooling/) es un conjunto de herramientas y tecnologías diseñadas para ayudar a moderar el contenido en línea. Estas herramientas pueden utilizarse para detectar y filtrar contenido inapropiado o peligroso, como spam, discurso de odio, contenido sexual explícito o violencia gráfica. Esta tecnologia abierta al público, esta incorporada en todos los sistemas que ha lanzado la compañia y busca mantener la transparencia y equidad de sus aplicaciones de la IA.
+El Content Moderation Tooling de OpenAI (https://openai.com/blog/new-and-improved-content-moderation-tooling/) es un conjunto de herramientas y tecnologías diseñadas para ayudar a moderar el contenido en línea. Estas herramientas pueden utilizarse para detectar y filtrar contenido inapropiado o peligroso, como spam, discurso de odio, contenido sexual explícito o violencia gráfica. Esta tecnología abierta al público, esta incorporada en todos los sistemas que ha lanzado la compañía y busca mantener la transparencia y equidad de sus aplicaciones de la IA.
 
 ### Comunidad
 
-La comunidad explora constantemente alternativas para aumentar la interpretabilidad y responsabilidad de las arquitecturas desarrollando incluso softwares interactivos que permitan visualizar la consecuencias en la variación del contexto. Adicionalmente, existen constantes investigaciones, por ejemplo con modelos de atención han demostrado ser útiles porque proporcionan información sobre qué partes de la entrada de datos son más importantes para la predicción o la decisión del modelo. 
+La comunidad explora constantemente alternativas para aumentar la interpretabilidad y responsabilidad de las arquitecturas desarrollando incluso softwares interactivos que permitan visualizar las consecuencias en la variación del contexto. Adicionalmente, existen constantes investigaciones, por ejemplo, con modelos de atención han demostrado ser útiles porque proporcionan información sobre qué partes de la entrada de datos son más importantes para la predicción o la decisión del modelo. 
 
