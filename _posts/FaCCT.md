@@ -42,3 +42,5 @@ Apple's App Tracking Transparency (https://developer.apple.com/documentation/app
 ### OpenAI
 
 El Content Moderation Tooling de OpenAI (https://openai.com/blog/new-and-improved-content-moderation-tooling/) es un conjunto de herramientas y tecnologías diseñadas para ayudar a moderar el contenido en línea. Estas herramientas pueden utilizarse para detectar y filtrar contenido inapropiado o peligroso, como spam, discurso de odio, contenido sexual explícito o violencia gráfica. Esta tecnologia abierta al público, esta incorporada en todos los sistemas que ha lanzado la compañia y busca mantener la transparencia y equidad de sus aplicaciones de la IA.
+
+Desde mi perspectiva si bien algunas de las empresas van muy bien encaminadas, hay otras que actuan de acuerdo a la presión social o gubernamental por tener una mejor regulación. Dada la velocidad a la que esta expandiendose esta tecnología es necesario no descuidar el panorama y crear una base sólida que incentive el aporte positivo de la IA en la sociedad.
