@@ -1,6 +1,6 @@
 # Aplicaciones de vanguardia de la IA.
 
-La inteligencia artificial es una tecnología que está cambiando la forma en que vivimos y trabajamos. Iniciaremos explorando algunas de las aplicaciones más sorprendentes e innovadoras de la inteligencia artificial, y despues profundizaremos acerca de algunas de las principales preocupaciones de la equidad, rendición de cuentas y transparencia de estos sistemas y como algunas de las empresas pioneras lo estan abordando. Este primer post se plantea como un complemento a algunas de las principales tematicas discutidas en clase.
+La inteligencia artificial es una tecnología que está cambiando la forma en que vivimos y trabajamos. Iniciaremos explorando algunas de las aplicaciones más sorprendentes e innovadoras de la inteligencia artificial, y despues profundizaremos acerca de algunas de las principales preocupaciones de la equidad, rendición de cuentas y transparencia de estos sistemas y como algunas de las empresas lideres lo estan abordando. Este primer post se plantea como un complemento a algunas de las principales tematicas discutidas en clase.
 
 ## Dall-E (https://openai.com/dall-e-2/)
 
