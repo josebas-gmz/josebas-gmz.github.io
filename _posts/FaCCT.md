@@ -4,7 +4,7 @@ La inteligencia artificial es una tecnología que está cambiando la forma en qu
 
 ## Dall-E (https://openai.com/dall-e-2/)
 
-DALL-E es un modelo de lenguaje de deep learning desarrollado por OpenAI. Utiliza una potentes transformers para interpretar el lenguaje en conjunto con redes generativas que habilitan la creación de imágenes a partir de descripciones escritas en texto, imágenes que nunca han existido antes. DALL-E ha sido entrenado en una base de datos masiva de imágenes y descripciones de texto, lo que le permite "comprender" el lenguaje y la relación entre las palabras y las imágenes. Es un ejemplo de cómo la IA puede ser utilizada para crear cosas completamente nuevas y sorprendentes.
+DALL-E es un modelo de lenguaje de deep learning desarrollado por OpenAI. Utiliza una potentes transformers para interpretar el lenguaje en conjunto con redes generativas que habilitan la creación de imágenes a partir de descripciones escritas en texto, imágenes que nunca han existido antes. DALL-E ha sido entrenado en una base de datos masiva de imágenes y descripciones de texto, lo que le permite "comprender" el lenguaje y la relación entre las palabras y las imágenes.
 
 ## Tesla AI day 2022 (https://www.youtube.com/watch?v=j0z4FweCy4M)
 
